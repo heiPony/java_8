@@ -4,11 +4,16 @@ import org.springframework.util.StringUtils;
 
 public class StringOps {
     public static void main(String[] args) {
-        System.out.println(isPalindrome("abc"));
-        System.out.println(isPalindrome("abcdcba"));
+
     }
 
 
+    /**
+     * String是否是回文(StringBuilder.reverse())
+     * @Author huangzhanping
+     * @param [str]
+     * @return 2019/12/2 15:15
+     */
     public static boolean isPalindrome(String str){
         if(StringUtils.isEmpty(str)){
             return false;
