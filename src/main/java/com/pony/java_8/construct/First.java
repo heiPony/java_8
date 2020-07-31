@@ -1,4 +1,4 @@
-package com.pony.java_8.Construct;
+package com.pony.java_8.construct;
 
 public class First {
 

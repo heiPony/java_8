@@ -8,9 +8,12 @@ public class Arithmetic {
     private static Logger logger = LoggerFactory.getLogger(Arithmetic.class);
 
     public static void main(String[] args) {
-        for (int i = 2; i <= 10; i++) {
-            primeNum(i);
-        }
+        String hCode="22";
+        Boolean isOk=hCode.hashCode()=="22".hashCode();
+        System.out.println(hCode.hashCode()=="23".hashCode());
+        hCode.equals("22");
+
+
 
     }
 

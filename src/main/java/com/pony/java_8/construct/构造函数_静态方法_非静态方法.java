@@ -1,4 +1,4 @@
-package com.pony.java_8.Construct;
+package com.pony.java_8.construct;
 
 public class 构造函数_静态方法_非静态方法 {
     public static void main(String[] args) {
